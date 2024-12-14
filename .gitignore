@@ -12,14 +12,24 @@ build/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+*.xcscmblueprint
 *.xccheckout
 *.moved-aside
-DerivedData
+DerivedData/
+
+# Xcode build artifacts
 *.hmap
 *.ipa
+.netrc
 
 # Bundler
 .bundle
+
+# SPM
+/.build
+/Packages
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
